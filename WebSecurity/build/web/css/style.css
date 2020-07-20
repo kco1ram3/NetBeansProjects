@@ -1,0 +1,40 @@
+root { 
+    display: block;
+}
+
+body {
+    margin-top: 0;
+    background: #EEF6F8;
+}
+
+.invalid {
+    color: red;
+}
+
+.invalid_textbox {
+    border: red solid 1px; 
+    color: red;
+}
+
+table tr td {
+    vertical-align: top;
+}
+
+#complexity{
+    width: 300px;
+    padding: 3px 0;
+    height: 20px;
+    color: #000;
+    font-size: 14px;
+    text-align: center;
+}
+
+#results{
+    margin: 30px 0 20px 0;
+}
+
+.default{background-color: #CCC;}
+.weak{background-color: #FF5353;}
+.strong{background-color: #FAD054;}
+.stronger{background-color: #93C9F4;}
+.strongest{background-color: #B6FF6C;}
